@@ -1,0 +1,13 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body{
+    @apply font-mono;
+}
+input[type="search"],
+input[type="text"]{
+ @apply border-0 placeholder-slate-300  text-slate-600 bg-white  rounded shadow focus:outline-none focus:ring ease-linear transition-all duration-150;
+}
