@@ -20,180 +20,10 @@
 
       <!-- result -->
       <div class="result mt-10 grid grid-cols-3 gap-6">
-        <!-- Card -->
-        <div class="card h-48">
-          <div class="card-body flex flex-row">
-            <div class="img-wrapper w-40 h-48 flex">
-              <img src="../assets/img/01.png" class="" alt="img title" />
-            </div>
+        <!-- Cards -->
+         <CardMovie/>
 
-            <div class="py-2 ml-10 grid grid-cols-1">
-              <h1 class="text-lg font-bold">Inception</h1>
 
-              <div class="">
-                <span class="mt-5"
-                  ><i class="_icon _icon-calendar mr-2 mb-2"></i
-                  >2014-10-22</span
-                >
-                <ul class="flex gap-6">
-                  <li class="text-sm font-light">Action</li>
-                  <li class="text-sm font-light">Adventure</li>
-                  <li class="text-sm font-light">Sci-Fi</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card -->
-        <div class="card h-48">
-          <div class="card-body flex flex-row">
-            <div class="img-wrapper w-40 h-48 flex">
-              <img src="../assets/img/01.png" class="" alt="img title" />
-            </div>
-
-            <div class="py-2 ml-10 grid grid-cols-1">
-              <h1 class="text-lg font-bold">Inception</h1>
-
-              <div class="">
-                <span class="mt-5"
-                  ><i class="_icon _icon-calendar mr-2 mb-2"></i
-                  >2014-10-22</span
-                >
-                <ul class="flex gap-6">
-                  <li class="text-sm font-light">Action</li>
-                  <li class="text-sm font-light">Adventure</li>
-                  <li class="text-sm font-light">Sci-Fi</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card -->
-        <div class="card h-48">
-          <div class="card-body flex flex-row">
-            <div class="img-wrapper w-40 h-48 flex">
-              <img src="../assets/img/01.png" class="" alt="img title" />
-            </div>
-
-            <div class="py-2 ml-10 grid grid-cols-1">
-              <h1 class="text-lg font-bold">Inception</h1>
-
-              <div class="">
-                <span class="mt-5"
-                  ><i class="_icon _icon-calendar mr-2 mb-2"></i
-                  >2014-10-22</span
-                >
-                <ul class="flex gap-6">
-                  <li class="text-sm font-light">Action</li>
-                  <li class="text-sm font-light">Adventure</li>
-                  <li class="text-sm font-light">Sci-Fi</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card -->
-        <div class="card h-48">
-          <div class="card-body flex flex-row">
-            <div class="img-wrapper w-40 h-48 flex">
-              <img src="../assets/img/01.png" class="" alt="img title" />
-            </div>
-
-            <div class="py-2 ml-10 grid grid-cols-1">
-              <h1 class="text-lg font-bold">Inception</h1>
-
-              <div class="">
-                <span class="mt-5"
-                  ><i class="_icon _icon-calendar mr-2 mb-2"></i
-                  >2014-10-22</span
-                >
-                <ul class="flex gap-6">
-                  <li class="text-sm font-light">Action</li>
-                  <li class="text-sm font-light">Adventure</li>
-                  <li class="text-sm font-light">Sci-Fi</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card -->
-        <div class="card h-48">
-          <div class="card-body flex flex-row">
-            <div class="img-wrapper w-40 h-48 flex">
-              <img src="../assets/img/01.png" class="" alt="img title" />
-            </div>
-
-            <div class="py-2 ml-10 grid grid-cols-1">
-              <h1 class="text-lg font-bold">Inception</h1>
-
-              <div class="">
-                <span class="mt-5"
-                  ><i class="_icon _icon-calendar mr-2 mb-2"></i
-                  >2014-10-22</span
-                >
-                <ul class="flex gap-6">
-                  <li class="text-sm font-light">Action</li>
-                  <li class="text-sm font-light">Adventure</li>
-                  <li class="text-sm font-light">Sci-Fi</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card -->
-        <div class="card h-48">
-          <div class="card-body flex flex-row">
-            <div class="img-wrapper w-40 h-48 flex">
-              <img src="../assets/img/01.png" class="" alt="img title" />
-            </div>
-
-            <div class="py-2 ml-10 grid grid-cols-1">
-              <h1 class="text-lg font-bold">Inception</h1>
-
-              <div class="">
-                <span class="mt-5"
-                  ><i class="_icon _icon-calendar mr-2 mb-2"></i
-                  >2014-10-22</span
-                >
-                <ul class="flex gap-6">
-                  <li class="text-sm font-light">Action</li>
-                  <li class="text-sm font-light">Adventure</li>
-                  <li class="text-sm font-light">Sci-Fi</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card -->
-        <div class="card h-48">
-          <div class="card-body flex flex-row">
-            <div class="img-wrapper w-40 h-48 flex">
-              <img src="../assets/img/01.png" class="" alt="img title" />
-            </div>
-
-            <div class="py-2 ml-10 grid grid-cols-1">
-              <h1 class="text-lg font-bold">Inception</h1>
-
-              <div class="">
-                <span class="mt-5"
-                  ><i class="_icon _icon-calendar mr-2 mb-2"></i
-                  >2014-10-22</span
-                >
-                <ul class="flex gap-6">
-                  <li class="text-sm font-light">Action</li>
-                  <li class="text-sm font-light">Adventure</li>
-                  <li class="text-sm font-light">Sci-Fi</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
 
       <div class="w-96 mx-auto pagination container">
@@ -214,11 +44,13 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
+import CardMovie from "@/components/Home/CardComponent.vue"
 
 export default {
   name: "HomeView",
   components: {
     HelloWorld,
+    CardMovie,
   },
 };
 </script>
