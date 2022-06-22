@@ -1,20 +1,22 @@
 <template>
-<!--card-->
-  <div class="card h-48">
+  <!--card-->
+  <div class="card h-48 columns-1" v-for="(film, index) in Movies">
     <div class="card-body flex flex-row">
       <div class="img-wrapper w-40 h-48 flex">
-        <img src="@/assets/img/01.png" class=""  :alt="title" />
+        <img src="@/assets/img/01.png" class="" :alt="film.title" />
       </div>
 
       <div class="py-2 ml-10 grid grid-cols-1">
-        <h1 class="text-lg font-bold">{{title}}</h1>
+        <h1 class="text-lg font-bold">{{ film.title }}</h1>
 
-        <div class="">
+        <div class="mt-7">
           <span class="mt-5"
-            ><i class="_icon _icon-calendar mr-2 mb-2"></i>2014-10-22</span
+            ><i class="_icon _icon-calendar mr-2 mb-2"></i>{{ film.date }}</span
           >
-          <ul class="flex gap-6">
-            <li class="text-sm font-light" v-for="(tag,index) in tags">{{tag}}</li>
+          <ul class="grid grid-cols-3 gap-x-6">
+            <li class="text-sm font-light" v-for="(tag, index) in film.tags">
+              {{ tag }}
+            </li>
           </ul>
         </div>
       </div>
@@ -27,17 +29,54 @@ export default {
   name: "CardMovie",
   data() {
     return {
-        msg:"vue start",
-        tags:["Action","Adventure","Sci-Fi","Movies","film"],
-        img:"",
-        title:'Inception',
+      msg: "vue start",
+
+      Movies: [
+        {
+          title: "Inception",
+          date: "2014-10-22",
+          img: "",
+          tags: ["Action", "Adventure", "Sci-Fi", "Movies", "film"],
+        },
+        {
+          title: "Inception",
+          date: "2014-10-22",
+          img: "",
+          tags: ["Action", "Adventure", "Sci-Fi", "Movies", "film"],
+        },
+        {
+          title: "Inception",
+          date: "2014-10-22",
+          img: "",
+          tags: ["Action", "Adventure", "Sci-Fi", "Movies", "film"],
+        },
+        {
+          title: "Inception",
+          date: "2014-10-22",
+          img: "",
+          tags: ["Action", "Adventure", "Sci-Fi", "Movies", "film"],
+        },
+        {
+          title: "Inception",
+          date: "2014-10-22",
+          img: "",
+          tags: ["Action", "Adventure", "Sci-Fi", "Movies", "film"],
+        },
+        {
+          title: "Inception",
+          date: "2014-10-22",
+          img: "",
+          tags: ["Action", "Adventure", "Sci-Fi", "Movies", "film"],
+        },
+      ],
     };
   },
-  created:function(){
-      console.log("created");
+  created: function () {
+    console.log("created");
+    this.GetMovies();
   },
-  methods:{
-
+  methods: {
+    GetMovies: function () {},
   },
   props: {},
 };

@@ -1,3 +1,49 @@
 body{
-    
+    color: #000;
 }
+.topBar {
+  background: #11b980;
+}
+.wrapper {
+  background: #cfcfcf;
+}
+  .card {
+    border-radius: 0.25rem;
+    background: #f1f1f1;
+  }
+  
+  .btn-primary-search {
+    background: #549df2 !important;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 33px;
+    padding-left: 7px;
+    padding-right: 7px;
+    cursor: pointer;
+  }
+  .post_meta li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.post_meta li strong{
+  background: #cfcfcf;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 3px 0;
+    display: inline-block;
+    min-width: 90px;
+    color: #32323e;
+    text-align: center;
+}
+.post_meta li .seprator{
+  flex: 1;
+  height: 1px;
+  background: #cfcfcf;
+  margin: 0 10px;
+} 
+  
+  
