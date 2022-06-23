@@ -115,3 +115,30 @@
     
   </div>
 </template>
+
+<script>
+import axios from "axios";
+export default {
+  name: "CardMovie",
+  data() {
+    return {
+      msg: "vue start",
+      
+      
+    };
+  },
+  created: function () {
+    
+    console.log("created");
+    
+  },
+  methods: {
+    GetMovie: function () {
+     
+    },
+    
+  },
+  
+  props: {},
+};
+</script>
