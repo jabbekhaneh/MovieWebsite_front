@@ -14,6 +14,10 @@ npm run serve
 ```
 npm run build
 ```
+### Back project link
+```
+See [Configuration Reference](https://github.com/jabbekhaneh/MovieWebsite_back).
+```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
